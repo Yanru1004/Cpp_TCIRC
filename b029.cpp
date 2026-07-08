@@ -20,13 +20,15 @@ int main(){
         for (int j=0;j<k;j++){
             cin >> chung[j];
         }
-        sort(chung);
+        //排序
+        sort(chung.begin(),chung.end());
 
         //讀取電電字條
         for (int j=0;j<k;j++){
             cin >> dang[j];
         }
-        sort(dang);
+        //排序
+        sort(dang.begin(),dang.end());
 
         //計算乘積和並輸出
         int result = 0;
